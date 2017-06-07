@@ -1,0 +1,25 @@
+extreme and normal rainfall classification
++ LDA: 
+ "feature":"P5_z, P5th, P5zh, P8_f, P8_u, P8_v, P8_z, P8zh, P850, P_f, P_u, P_v, P_z, Rhum, Shum","extreme.acc":0.6875,"normal.acc":0.984,"acc":0.9741
+
+
++ Naive-Bayes:
+ [{"feature":"P5_z, P5th, P5zh, P8_f, P8_u, P8_v, P8_z, P8zh, P850, P_f, P_u, P_v, P_z, Rhum, Shum, P5_u, R850, R850, R850, P8th, Temp","extreme.acc":0.6875,"normal.acc":0.9424,"acc":0.9339}]
+
+
++ SVM:
+[{"feature":"P5_z, P5th, P5zh, P8_f, P8_u, P8_v, P8_z, P8zh, P850, P_f, P_u, P_v, P_z, Rhum, Shum, P5_u, R850, Mslp, P_zh, Temp","c":10,"sigma":0.1,"normal.acc":0.9896,"extreme.acc":0.4375,"accuracy":0.9711}]
+
+
++ Random Forest:
+[{"feature":"P_u, P_z, R850, Rhum, Temp","extreme.acc":0.425,"normal.acc":0.9983,"bayes.acc":0.9791}]
+
+
+
++ Adaboost:
+[{"feature":"P8_v, P8_z, P8zh, P500, P850, P_u, P_z, P_th, R500, Temp","extreme.acc":0.55,"normal.acc":0.9827,"bayes.acc":0.9682}]
+
+
+
+
+

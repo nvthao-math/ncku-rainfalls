@@ -1,0 +1,18 @@
+* Dry and rain classification
+   + Dry season (11-04)
+     - svm: [{"feature":"P8_z, P500, P_z, P850, R850, Rhum, P5zh, P5_v","c":1,"sigma":0.1,"rain.acc":0.7945,"dry.acc":0.6743,"accuracy":0.7417}]
+     - bayes: [{"feature":"R500, P500, P850, R850, P5_v","bayes.rain.acc":0.7866,"bayes.dry.acc":0.6683,"bayes.acc":0.7377}]
+     - cobime: [{"c_value":1,"sig_value":0.1,"rain.acc":0.8138,"dry.acc":0.7079,"accuracy":0.7686}] 
+
+
+   + rain season (05-10)
+     - svm: [{"feature":"P8_z, R500, P500, P_z, R850, P5zh, P5_v","c":1,"sigma":0.1,"rain.acc":0.9293,"dry.acc":0.4064,"accuracy":0.7439}]
+     - bayes: [{"feature":"R500, P500, R850, P5zh","bayes.rain.acc":0.859,"bayes.dry.acc":0.4985,"bayes.acc":0.7439}]
+
+
+
+* Extreme and normal rainfall classification
+   + svm:   [{"feature":"P_z, P850, Rhum, P5zh, P5_v","c":10,"sigma":0.1,"normal.acc":0.998,"extreme.acc":0.3375,"accuracy":0.9774}]
+   + bayes: [{"feature":"P8_z, R500, P_z, P850, R850, P5_v","extreme.acc":0.5875,"normal.acc":0.9727,"bayes.acc":0.9607}]
+
+
